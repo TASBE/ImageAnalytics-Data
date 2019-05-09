@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="LASAF_CIP.xsl"?>
+<Data>
+  <Image>
+    <Attachment Name="Coordinate" Application="LAS AF">
+      <Coordinate Name="ChamberU" Value="0" />
+      <Coordinate Name="ChamberV" Value="0" />
+      <Coordinate Name="FieldX" Value="3" />
+    </Attachment>
+    <Attachment Name="PreviewMarker" Application="LAS AF" IsPreviewImage="0" />
+    <ImageDescription>
+      <Name>Pos004_S001</Name>
+      <Size>320.86 MB</Size>
+      <Channels>
+        <ChannelDescription DataType="0" ChannelTag="0" Resolution="16" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="6.553500e+004" Unit="" LUTName="Red" IsLUTInverted="0" BytesInc="0" BitInc="0">
+        </ChannelDescription>
+        <ChannelDescription DataType="0" ChannelTag="0" Resolution="16" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="6.553500e+004" Unit="" LUTName="Gray" IsLUTInverted="0" BytesInc="2097152" BitInc="0">
+        </ChannelDescription>
+        <ChannelDescription DataType="0" ChannelTag="0" Resolution="16" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="6.553500e+004" Unit="" LUTName="Yellow" IsLUTInverted="0" BytesInc="4194304" BitInc="0">
+        </ChannelDescription>
+      </Channels>
+      <Dimensions>
+        <DimensionDescription DimID="X" NumberOfElements="1024" Origin="0.00" Length="1.55" Unit="mm" BitInc="0" BytesInc="2" LogicalUnit="pixels" Voxel="0.002">
+        </DimensionDescription>
+        <DimensionDescription DimID="Y" NumberOfElements="1024" Origin="0.00" Length="1.55" Unit="mm" BitInc="0" BytesInc="2048" LogicalUnit="pixels" Voxel="0.002">
+        </DimensionDescription>
+        <DimensionDescription DimID="T" NumberOfElements="51" Origin="0 s" Length="16h40m0.000s" Unit="" BitInc="0" BytesInc="6291456" LogicalUnit="" Voxel="20m0.000s">
+        </DimensionDescription>
+      </Dimensions>
+      <FileLocation>D:\Program Files\Leica Microsystems CMS GmbH\LAS AF\BIN\Experiment</FileLocation>
+      <StartTime>7/20/2018 7:09:45 PM.148</StartTime>
+      <EndTime>7/21/2018 11:29:53 AM.019</EndTime>
+      <FrameCount>153 (3 channels, 51 frames)</FrameCount>
+    </ImageDescription>
+    <Attachment Name="HardwareSettingList" Application="LAS AF">
+      <HardwareSetting Name="default">
+        <ScannerSetting>
+          <ScannerSettingRecord Identifier="SystemType" Unit="" Description="System Type" Data="0" Variant="TCS SP5" VariantType="8" />
+          <ScannerSettingRecord Identifier="bAFUseFixSliceNumber" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="bAdaptiveFocusControlActive" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="bEnableRoiScan" Unit="" Description="RoiScan" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bIs3DLimitedRoiScanEnable" Unit="" Description="Is 3D limited ROI scan enable" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bIsSequential" Unit="" Description="IsSequential" Data="0" Variant="1" VariantType="11" />
+          <ScannerSettingRecord Identifier="bIsSeriesScanAutofocusActive" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="bMinimizeMode" Unit="" Description="" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bStepSizeConstant" Unit="" Description="StepSize Constant" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bStepSizerActivated" Unit="" Description="" Data="0" Variant="1" VariantType="17" />
+          <ScannerSettingRecord Identifier="bUseUVShutter" Unit="" Description="UV Shutter" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bUseVisibleShutter" Unit="" Description="Visible Shutter" Data="0" Variant="1" VariantType="17" />
+          <ScannerSettingRecord Identifier="bValidBegin" Unit="" Description="" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bValidEnd" Unit="" Description="" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="csLutName00" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="1" Variant="Cyan" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName01" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2" Variant="Red" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName02" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="3" Variant="Blue" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName03" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="100" Variant="Gray" VariantType="8" />
+          <ScannerSettingRecord Identifier="csScanMode" Unit="" Description="ScanMode" Data="0" Variant="xyt" VariantType="8" />
+          <ScannerSettingRecord Identifier="dAdaptiveFocusControlAutonomousOffset" Unit="" Description="" Data="0" Variant="-2" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblAFCOffset" Unit="" Description="" Data="0" Variant="-2" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblAFFocusRange" Unit="" Description="" Data="0" Variant="0.00005" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblPinhole" Unit="µm" Description="Pinhole [m]" Data="0" Variant="537.0" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblPinholeAiry" Unit="" Description="Pinhole [airy]" Data="0" Variant="7.59" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblSizeX" Unit="µm" Description="Size-Width" Data="0" Variant="1550.0" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblSizeY" Unit="µm" Description="Size-Height" Data="0" Variant="1550.0" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblVoxelX" Unit="nm" Description="Voxel-Width" Data="0" Variant="1515.2" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblVoxelY" Unit="nm" Description="Voxel-Height" Data="0" Variant="1515.2" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblZWidePos" Unit="m" Description="z-Wide Pos" Data="0" Variant="0.0046835798" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblZoom" Unit="" Description="Zoom" Data="0" Variant="1.0" VariantType="5" />
+          <ScannerSettingRecord Identifier="dwChannelMask" Unit="" Description="" Data="0" Variant="36" VariantType="3" />
+          <ScannerSettingRecord Identifier="dwLogiChMask" Unit="" Description="" Data="0" Variant="10" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFAnalyseType" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFSubsystem" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFWorkflowTimelapse" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFWorkflowXY" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFZUseMode" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eDataSource" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="eDirectional" Unit="" Description="Scan-Direction" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eDirectionalY" Unit="" Description="Y-Scan-Direction" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eSequentialMode" Unit="" Description="SequentialMode" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eZUseMode" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="m_bConstantIntegrationTimeActive" Unit="" Description="Maximum IntegrationTime Active" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="nAFFixSliceNumber" Unit="" Description="" Data="0" Variant="3" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAFPrecision" Unit="" Description="" Data="0" Variant="2" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAFWorkflowTimelapseIterator" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAFWorkflowXYIterator" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAccumulation" Unit="" Description="Frame-Accumulation" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAverageFrame" Unit="" Description="Frame-Average" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAverageLine" Unit="" Description="Line-Average" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nBegin" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="nBit" Unit="bits" Description="Resolution" Data="0" Variant="16" VariantType="3" />
+          <ScannerSettingRecord Identifier="nChannels" Unit="" Description="Channels" Data="0" Variant="2" VariantType="3" />
+          <ScannerSettingRecord Identifier="nDelayTime_min" Unit="min" Description="Delay[min]" Data="0" Variant="20" VariantType="3" />
+          <ScannerSettingRecord Identifier="nEnd" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="nFormatInDimension" Unit="pixels" Description="Format-Width" Data="0" Variant="1024" VariantType="3" />
+          <ScannerSettingRecord Identifier="nFormatOutDimension" Unit="pixels" Description="Format-Height" Data="0" Variant="1024" VariantType="3" />
+          <ScannerSettingRecord Identifier="nLineAccumulation" Unit="" Description="Line-Accumulation" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nLines" Unit="" Description="" Data="0" Variant="1.00000000000011" VariantType="5" />
+          <ScannerSettingRecord Identifier="nPages" Unit="" Description="" Data="0" Variant="1" VariantType="5" />
+          <ScannerSettingRecord Identifier="nRepeatActions" Unit="" Description="Iterations" Data="0" Variant="219" VariantType="3" />
+          <ScannerSettingRecord Identifier="nDelayTime" Unit="" Description="Delay Time" Data="0" Variant="20min " VariantType="8" />
+          <ScannerSettingRecord Identifier="dblSizeZ" Unit="s" Description="Size-Depth" Data="0" Variant="60000.0" VariantType="5" />
+        </ScannerSetting>
+        <FilterSetting>
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (458)" Data="458" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (476)" Data="476" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (488)" Data="488" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (514)" Data="514" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (543)" Data="543" Variant="80.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (633)" Data="633" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (458)" Data="458" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (476)" Data="476" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (488)" Data="488" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (514)" Data="514" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (543)" Data="543" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (633)" Data="633" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="PMT 1" ClassName="CDetectionUnit" Attribute="State" Description="PMT 1" Data="1" Variant="Inactive" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT 2" ClassName="CDetectionUnit" Attribute="State" Description="PMT 2" Data="2" Variant="Active" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT 2" ClassName="CDetectionUnit" Attribute="VideoOffset" Description="PMT 2 (Offs.)" Data="2" Variant="0.2" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="PMT 2" ClassName="CDetectionUnit" Attribute="HighVoltage" Description="PMT 2 (HV)" Data="2" Variant="806.0" VariantType="5" />
+          <FilterSettingRecord ObjectName="PMT 2" ClassName="CDetectionUnit" Attribute="HighVoltageUnit" Description="PMT 2 (HV_Unit)" Data="2" Variant="V" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT 2" ClassName="CDetectionUnit" Attribute="PreampMode" Description="PMT 2 (Preamp)" Data="2" Variant="Direct" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT 3" ClassName="CDetectionUnit" Attribute="State" Description="PMT 3" Data="3" Variant="Inactive" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT Trans" ClassName="CDetectionUnit" Attribute="State" Description="PMT Trans" Data="100" Variant="Active" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT Trans" ClassName="CDetectionUnit" Attribute="VideoOffset" Description="PMT Trans (Offs.)" Data="100" Variant="1.2" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="PMT Trans" ClassName="CDetectionUnit" Attribute="HighVoltage" Description="PMT Trans (HV)" Data="100" Variant="303.0" VariantType="5" />
+          <FilterSettingRecord ObjectName="PMT Trans" ClassName="CDetectionUnit" Attribute="HighVoltageUnit" Description="PMT Trans (HV_Unit)" Data="100" Variant="V" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT Trans" ClassName="CDetectionUnit" Attribute="PreampMode" Description="PMT Trans (Preamp)" Data="100" Variant="Direct" VariantType="8" />
+          <FilterSettingRecord ObjectName="Excitation Beam Splitter FW" ClassName="CFilterWheel" Attribute="Filter" Description="Excitation Beam Splitter FW" Data="0" Variant="DD 488/543" VariantType="8" />
+          <FilterSettingRecord ObjectName="Excitation FW UV" ClassName="CFilterWheel" Attribute="Filter" Description="Excitation FW UV" Data="0" Variant="ND 3" VariantType="8" />
+          <FilterSettingRecord ObjectName="Target Slider" ClassName="CFilterWheel" Attribute="Filter" Description="Target Slider" Data="0" Variant="Target Park " VariantType="8" />
+          <FilterSettingRecord ObjectName="UV Lens FW" ClassName="CFilterWheel" Attribute="Filter" Description="UV Lens FW" Data="0" Variant="Lens 40x/1.25 Oil " VariantType="8" />
+          <FilterSettingRecord ObjectName="Hardware Tree (5100001179)" ClassName="CFolderHardwareTree" Attribute="Machine_Type" Description="Hardware Type No." Data="0" Variant="7" VariantType="5" />
+          <FilterSettingRecord ObjectName="Hardware Tree (5100001179)" ClassName="CFolderHardwareTree" Attribute="System_Number" Description="System Number" Data="0" Variant="5100001179" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (405 Diode, UV)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="405" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (405 Diode, UV)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="On" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (Argon, visible)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="458" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (Argon, visible)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="On" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (Argon, visible)" ClassName="CLaser" Attribute="Output Power" Description="Laser output power" Data="0" Variant="35" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Laser (HeNe 543, visible)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="543" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (HeNe 543, visible)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="On" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (HeNe 633, visible)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="633" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (HeNe 633, visible)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="On" VariantType="8" />
+          <FilterSettingRecord ObjectName="DMI6000" ClassName="CMicroscopeStand" Attribute="TLD_Settings" Description="TLD_Settings" Data="0" Variant="100" VariantType="3" />
+          <FilterSettingRecord ObjectName="DMI6000" ClassName="CMicroscopeStand" Attribute="RLD_Settings" Description="RLD_Settings" Data="0" Variant="-1" VariantType="3" />
+          <FilterSettingRecord ObjectName="Microscope" ClassName="CMicroscopeStand" Attribute="InverseZForCorrectTopo" Description="inverse flag topo" Data="0" Variant="0" VariantType="3" />
+          <FilterSettingRecord ObjectName="Scan Field Rotator MA4" ClassName="CRotator" Attribute="Scan Rotation" Description="Scan Field Rotation" Data="0" Variant="0" VariantType="5" Unit="degrees" />
+          <FilterSettingRecord ObjectName="Scan Field Rotator MA4" ClassName="CRotator" Attribute="Rotation Direction" Description="Rotation Direction" Data="0" Variant="1" VariantType="3" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="ScanPlane" Description="X Scan Actuator" Data="0" Variant="Active" VariantType="8" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="IsWholeRangeOfSuperZEnabled" Description="X Scan Actuator (POS)" Data="0" Variant="0" VariantType="3" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="Gain" Description="X Scan Actuator (Gain)" Data="0" Variant="1" VariantType="5" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="Offset" Description="X Scan Actuator (Offs.)" Data="0" Variant="8.67361737988404E-19" VariantType="5" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="ScanPlane" Description="Y Scan Actuator" Data="0" Variant="Active" VariantType="8" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="IsWholeRangeOfSuperZEnabled" Description="Y Scan Actuator (POS)" Data="0" Variant="0" VariantType="3" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="Gain" Description="Y Scan Actuator (Gain)" Data="0" Variant="1" VariantType="5" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="Offset" Description="Y Scan Actuator (Offs.)" Data="0" Variant="8.67361737988404E-19" VariantType="5" />
+          <FilterSettingRecord ObjectName="Z Scan Actuator" ClassName="CScanActuator" Attribute="ScanPlane" Description="Z Scan Actuator" Data="0" Variant="Inactive" VariantType="8" />
+          <FilterSettingRecord ObjectName="Z Scan Actuator" ClassName="CScanActuator" Attribute="IsWholeRangeOfSuperZEnabled" Description="Z Scan Actuator (POS)" Data="0" Variant="0" VariantType="3" />
+          <FilterSettingRecord ObjectName="Z Scan Actuator" ClassName="CScanActuator" Attribute="Position" Description="Z Scan Actuator (POS)" Data="0" Variant="0.000" VariantType="5" Unit="" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="Speed" Description="Scan Speed" Data="1" Variant="200" VariantType="5" Unit="Hz" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="Phase" Description="Phase" Data="0" Variant="-28.22156099794" VariantType="5" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="Y-Phase" Description="Y-Phase" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="SMD-Phase" Description="SMD-Phase" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 1" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 1 (left)" Data="0" Variant="425.0" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 1" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 1 (right)" Data="1" Variant="563.0" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 1" ClassName="CSpectrophotometerUnit" Attribute="Stain" Description="SP Mirror Channel 1 (stain)" Data="0" Variant="Leica/ECFP" VariantType="8" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 2" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 2 (left)" Data="0" Variant="576.8" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 2" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 2 (right)" Data="1" Variant="717.1" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 2" ClassName="CSpectrophotometerUnit" Attribute="Stain" Description="SP Mirror Channel 2 (stain)" Data="0" Variant="User/mKate2" VariantType="8" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 3" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 3 (left)" Data="0" Variant="730.6" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 3" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 3 (right)" Data="1" Variant="800.0" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 3" ClassName="CSpectrophotometerUnit" Attribute="Stain" Description="SP Mirror Channel 3 (stain)" Data="0" Variant="" VariantType="8" />
+          <FilterSettingRecord ObjectName="DMI6000 TubeOptic" ClassName="CTubeOptic" Attribute="Magnification" Description="Magnification-Changer" Data="0" Variant="SCANx" VariantType="8" />
+          <FilterSettingRecord ObjectName="DMI6000 TubeOptic" ClassName="CTubeOptic" Attribute="Position" Description="Position" Data="0" Variant="3" VariantType="3" />
+          <FilterSettingRecord ObjectName="DMI6000 Turret" ClassName="CTurret" Attribute="Objective" Description="Objective" Data="0" Variant="HC PL FLUOTAR  10.0x0.30 DRY " VariantType="8" />
+          <FilterSettingRecord ObjectName="DMI6000 Turret" ClassName="CTurret" Attribute="OrderNumber" Description="Order number (Obj.)" Data="0" Variant="11506505" VariantType="3" />
+          <FilterSettingRecord ObjectName="DMI6000 Turret" ClassName="CTurret" Attribute="NumericalAperture" Description="Numerical aperture (Obj.)" Data="0" Variant="0.30" VariantType="5" Unit="" />
+          <FilterSettingRecord ObjectName="DMI6000 Turret" ClassName="CTurret" Attribute="RefractionIndex" Description="Refraction index" Data="0" Variant="1.00" VariantType="5" Unit="" />
+          <FilterSettingRecord ObjectName="DMI6000 Stage" ClassName="CXYZStage" Attribute="XPosOrigin" Description="DMI6000 Stage XOrigin" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="DMI6000 Stage" ClassName="CXYZStage" Attribute="YPosOrigin" Description="DMI6000 Stage YOrigin" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="DMI6000 Stage" ClassName="CXYZStage" Attribute="ZPosOrigin" Description="DMI6000 Stage ZOrigin" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="DMI6000 Stage" ClassName="CXYZStage" Attribute="ZPos" Description="DMI6000 Stage Pos z" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="DMI6000 Stage" ClassName="CXYZStage" Attribute="XPos" Description="DMI6000 Stage Pos x" Data="0" Variant="0.05010611692378" VariantType="5" />
+          <FilterSettingRecord ObjectName="PMT 2" ClassName="CSpectrophotometerUnit" Attribute="Bandwidth" Description="Emission bandwidth PMT 2: begin - end" Data="0" Variant="577nm - 717nm" VariantType="8" />
+          <FilterSettingRecord ObjectName="DMI6000 Stage" ClassName="CXYZStage" Attribute="YPos" Description="DMI6000 Stage Pos y" Data="0" Variant="0.01821271040165" VariantType="5" />
+        </FilterSetting>
+        <LDM_Block_Sequential SequentialMode="1" AutoFocusSequence="1" BlockName="Job(Seq.Scan) 1">
+          <LDM_Block_Sequential_Master>
+            <ATLConfocalSettingDefinition VersionNumber="3" UserSettingName="S4" IsSTEDActive="0" STEDDelayTime="42" STEDDelayTime2="42" IsUserSettingNameSet="0" BitSize="16" ScanMode="xyt" ZUseMode="1" ZPosition="-2.3841880645312E-10" IsSuperZ="0" Sections="1" CycleCount="219" CycleTime="1200" CompleteTime="262452.763197711" LineTime="0.005" FrameTime="5.143" UseMaxIterationsForT="0" IsTimeMinimizeEnabled="0" LastTCalcMode="2" Lines="512" Pages="1" MaxLines="1" ValidBeginStack="0" ValidEndStack="0" IsActivatedStepSizer="1" StepSizeConstant="0" IsFastZStack="0" ZStackDirectionMode="1" StagePosX="15796442" StagePosY="11116072" StagePosZ="0" StageRangeX="25691588" StageRangeY="17000000" Magnification="10" ObjectivePos="0" CanDoOpticalZoom="0" OpticalZoom="1" AdaptiveFocusControlActive="0" AdaptiveFocusControlAutonomousOffset="-2" AdaptiveFocusControlAutonomousModeActive="0" CanDoCSMode="1" ActiveCS_SubModeForTLD="100" ActiveCS_SubModeForRLD="-1" AutofocusChannel="1" IsAutofocusOnStart="0" AutoFocusMode="2" AutofocusRedoEveryNTimePoints="0" IsFCSFilterAutomationActive="0" IsSMDChaserUVAOTFAutomationActive="0" ObjectiveName="Dummy1" ObjectiveNumber="11506505" IsUVShutterActive="1" IsVisShutterActive="0" LastNonMP_MFP_FW_Name="" LastNonMP_Pol_FW_Name="" ScanSpeed="200" InDimension="1024" OutDimension="1024" Zoom="1" PanFirstDim="8.67361737988404E-19" PanSecondDim="8.67361737988404E-19" ScanDirectionX="1" PhaseX="23520" Pinhole="5.36984683177495E-04" PinholeAiry="7.58881689058076" FrameAverage="1" LineAverage="1" FrameAccumulation="1" Line_Accumulation="1" RotatorAngle="0" LambdaExcitationMode="0" IsRoiScanEnable="0" InTrigger="-1" InTriggerShowInGraph="1" InTriggerRecordInEvent="1" InTriggerDescription="" OutTrigger="-1" OutTriggerShowInGraph="1" OutTriggerRecordInEvent="1" OutTriggerDescription="" SyncOutTriggerCycle="1" SyncOutTriggerStartOffset="1" SyncOutTriggerPulsCount="1" SyncOutTriggerPulseStartLine="0" SyncOutTriggerPulseEndLine="1" SyncInTriggerCycle="1" SyncInTriggerStartOffset="1" SyncInTriggerCount="1" Is3DLimitedRoiScanEnable="0" Limited3DRoiFirstSection="1" Limited3DRoiLastSection="1" DetectorValidBegin="0" DetectorValidEnd="0" AotfValidBegin="0" AotfValidEnd="0" ZIntensityCompensationMode="0">
+              <Autofocus-config Precision="2" FocusRange="0.00005" ZUseMode="1" AFAnalyseType="1" WorkflowTimelapse="1" WorkflowTimelapseIterator="1" WorkflowXY="1" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="0" AFCOffset="-2" />
+              <Quantity Value="0" Unit="" />
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="1" ZPosition="-2.3841880645312E-10" />
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="2" ZPosition="0.0046835798" />
+              </AdditionalZPositionList>
+              <ROI>
+                <LMSDataContainerHeader Version="2">
+                  <Element Name="DCROISet">
+                    <Data>
+                      <ROISet ROISetType="1" PossibleChildROITypes="-1" PossibleROITransforms="65535" PossibleROIActions="65535" />
+                    </Data>
+                    <Memory Size="0" MemoryBlockID="MemBlock_21" />
+                    <Children />
+                  </Element>
+                </LMSDataContainerHeader>
+              </ROI>
+              <ShutterList>
+                <Shutter LightSourceQualifier="20" ShutterQualifier="1" LightSourceName="UV" IsActive="1" />
+                <Shutter LightSourceQualifier="10" ShutterQualifier="3" LightSourceName="Vis" IsActive="0" />
+              </ShutterList>
+              <FilterWheel>
+                <Wheel Qualifier="10" LightSourceQualifier="20" FilterIndex="2" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="ND 12.5" FilterType="ExcitationFilter UV">
+                  <WheelName FilterName="ND 3" />
+                  <WheelName FilterName="ND 6" />
+                  <WheelName FilterName="ND 12.5" />
+                  <WheelName FilterName="ND 25" />
+                  <WheelName FilterName="ND 40" />
+                  <WheelName FilterName="ND 50" />
+                  <WheelName FilterName="ND 80" />
+                  <WheelName FilterName="--- " />
+                </Wheel>
+                <Wheel Qualifier="40" FilterIndex="1" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="Substrate " FilterType="Excitation Beam Splitter">
+                  <WheelName FilterName="RT 30/70" />
+                  <WheelName FilterName="Substrate " />
+                  <WheelName FilterName="TD 488/543/633" />
+                  <WheelName FilterName="DD 458/514" />
+                  <WheelName FilterName="RSP 500" />
+                  <WheelName FilterName="DD 488/543" />
+                </Wheel>
+                <Wheel Qualifier="170" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="Target Park " FilterType="Target Slider">
+                  <WheelName FilterName="Target Park " />
+                  <WheelName FilterName="Target Inserted " />
+                  <WheelName FilterName="Target Mirror " />
+                </Wheel>
+                <Wheel Qualifier="30" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="Lens 40x/1.25 Oil " FilterType="UV Lens Wheel">
+                  <WheelName FilterName="Lens 40x/1.25 Oil " />
+                  <WheelName FilterName="Lens 63x/1.2 W " />
+                  <WheelName FilterName="Lens 63x/1.4 Oil " />
+                  <WheelName FilterName="--- " />
+                  <WheelName FilterName="--- " />
+                  <WheelName FilterName="--- " />
+                </Wheel>
+              </FilterWheel>
+              <Spectro>
+                <MultiBand Channel="1" LeftWorld="430" RightWorld="470" DyeName="Leica/DAPI" />
+                <MultiBand Channel="2" LeftWorld="575.242214532872" RightWorld="639.0830449827" DyeName="" />
+                <MultiBand Channel="3" LeftWorld="650" RightWorld="750" DyeName="" />
+              </Spectro>
+              <Lambda>
+                <LambdaEmission Channel="1" IsValid="0" BandWidthMode="0" LambdaEnd="795" LambdaBegin="385" BandWidth="10" Sections="41" Resolution="2.5" />
+                <LambdaExcitation BandWidthMode="4" LambdaExcitationLightSource="0" LambdaLambdaChannel="1" LambdaLambdaDetectionRangeGeometry="0" LambdaExcitationSections="21" ValidLambdaExcitationBegin="0" ValidLambdaExcitationEnd="0" LambdaExcitationBegin="465" LambdaExcitationEnd="700" LambdaExcitationGapToSPUnit="10" LambdaExcitationSPUnitMaxLambda="710" LambdaExcitationLaserLineIndex="0" LambdaExcitationResolution="10" LambdaExcitationDontMoveSPUnits="0" LambdaBandWidthSize="20" LambdaLambdaDetectBegin="480" LambdaLambdaDetectEnd="720" LambdaLambdaDetectBandWidth="20" LambdaLambdaDetectNoOfSteps="12" LambdaLambdaDetectStepSize="20" ValidLambdaLambdaMinGapExctToDetct="1" ValidLambdaLambdaMaxGapExctToDetct="0" LambdaLambdaMinGapExctToDetct="10" LambdaLambdaMaxGapExctToDetct="50" LambdaLambdaImageCounter="0" />
+              </Lambda>
+              <LambdaLarge />
+              <AotfList>
+                <Aotf AotfQualifier="10" LightSourceQualifier="10" OpenVirtual="0" IsChanged="1" CanDoPulseFreq="0" PulsFreq="0" CanDoTwoLaserPIE="0" TwoLaserPIEActive="0" AotfType="Visible">
+                  <LaserLineSetting LaserLine="458" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="476" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="514" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="543" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="4" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="633" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="5" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                </Aotf>
+              </AotfList>
+              <LUT_List>
+                <LUT Channel="1" LutName="Blue" />
+                <LUT Channel="2" LutName="Gray" />
+                <LUT Channel="3" LutName="Gray" />
+                <LUT Channel="100" LutName="Gray" />
+              </LUT_List>
+              <DetectorList>
+                <Detector Channel="1" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="758" Offset="0" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 1" OffsetShow="0" GainShow="758" ActiveShow="Active" Band="(430nm - 470nm)" LutName="Blue" />
+                <Detector Channel="2" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="678" Offset="-1.09999999999999" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 2" OffsetShow="-1" GainShow="678" ActiveShow="Inactive" Band="(575nm - 639nm)" LutName="Gray" />
+                <Detector Channel="3" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="0" Offset="0" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 3" OffsetShow="0" GainShow="0" ActiveShow="Inactive" Band="(650nm - 750nm)" LutName="Gray" />
+                <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="303" Offset="0" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="Transmission" OffsetShow="0" GainShow="303" ActiveShow="Inactive" Band="" LutName="Gray" />
+              </DetectorList>
+              <LaserArray>
+                <Laser Qualifier="20" LightSourceQualifier="20" LaserName="405 Diode" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="405" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="Argon" CanDoLinearOutputPower="1" OutputPower="42" Wavelength="458" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="HeNe 543" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="543" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="HeNe 633" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="633" />
+              </LaserArray>
+              <CompensationInterpolationPoints>
+                <IntensityCompArray />
+              </CompensationInterpolationPoints>
+              <CompensationDetectorBeginCond>
+                <DetectorArray />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <DetectorArray />
+              </CompensationDetectorEndCond>
+              <CompensationAotfBeginCond>
+                <LaserLineSettingArray />
+              </CompensationAotfBeginCond>
+              <CompensationAotfEndCond>
+                <LaserLineSettingArray />
+              </CompensationAotfEndCond>
+              <CompensationDetectorBeginCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorEndCond>
+            </ATLConfocalSettingDefinition>
+          </LDM_Block_Sequential_Master>
+          <LDM_Block_Sequential_List>
+            <ATLConfocalSettingDefinition VersionNumber="3" UserSettingName="Seq. 1" IsSTEDActive="0" STEDDelayTime="42" STEDDelayTime2="42" IsUserSettingNameSet="1" BitSize="16" ScanMode="xyt" ZUseMode="1" ZPosition="-2.3841880645312E-10" IsSuperZ="0" Begin="0" End="0" Sections="1" ValidBeginStack="0" ValidEndStack="0" IsActivatedStepSizer="1" StepSizeConstant="0" StagePosX="15796442" StagePosY="11116072" StagePosZ="0" StageRangeX="25691588" StageRangeY="17000000" Magnification="10" ObjectivePos="0" CanDoOpticalZoom="0" OpticalZoom="1" MotCorrPosition="-1" CycleCount="1" CycleTime="0" CompleteTime="1.293" UseMaxIterationsForT="0" IsTimeMinimizeEnabled="0" LastTCalcMode="3" Lines="512" Pages="1" MaxLines="1" CanDoCSMode="1" ActiveCS_SubModeForTLD="100" ActiveCS_SubModeForRLD="-1" AutofocusChannel="1" IsAutofocusOnStart="1" AutoFocusMode="2" AutofocusRedoEveryNTimePoints="0" IsFCSFilterAutomationActive="0" IsSMDChaserUVAOTFAutomationActive="0" ObjectiveName="Dummy1" ObjectiveNumber="11506505" IsUVShutterActive="0" IsVisShutterActive="1" LastNonMP_MFP_FW_Name="" LastNonMP_Pol_FW_Name="" ScanSpeed="400" InDimension="512" OutDimension="512" Zoom="64" ScanDirectionX="1" PhaseX="23520" Pinhole="5.36984683177495E-04" PinholeAiry="7.58881689058076" FrameAverage="1" LineAverage="1" FrameAccumulation="1" Line_Accumulation="1" RotatorAngle="0" LambdaExcitationMode="0" IsRoiScanEnable="0" InTrigger="-1" InTriggerShowInGraph="1" InTriggerRecordInEvent="1" InTriggerDescription="" OutTrigger="-1" OutTriggerShowInGraph="1" OutTriggerRecordInEvent="1" OutTriggerDescription="" SyncOutTriggerCycle="1" SyncOutTriggerStartOffset="1" SyncOutTriggerPulsCount="1" SyncOutTriggerPulseStartLine="0" SyncOutTriggerPulseEndLine="1" SyncInTriggerCycle="1" SyncInTriggerStartOffset="1" SyncInTriggerCount="1" DetectorValidBegin="0" DetectorValidEnd="0" AotfValidBegin="0" AotfValidEnd="0" ZIntensityCompensationMode="0">
+              <Autofocus-config Precision="2" FocusRange="0.00008" ZUseMode="1" AFAnalyseType="1" WorkflowTimelapse="2" WorkflowTimelapseIterator="1" WorkflowXY="2" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="0" AFCOffset="-2" />
+              <Quantity Value="0" Unit="" />
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="1" ZPosition="-2.3841880645312E-10" />
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="2" ZPosition="0.0039827838" />
+              </AdditionalZPositionList>
+              <ROI>
+                <LMSDataContainerHeader Version="2">
+                  <Element Name="DCROISet">
+                    <Data>
+                      <ROISet ROISetType="1" PossibleChildROITypes="-1" PossibleROITransforms="65535" PossibleROIActions="65535" />
+                    </Data>
+                    <Memory Size="0" MemoryBlockID="MemBlock_22" />
+                    <Children />
+                  </Element>
+                </LMSDataContainerHeader>
+              </ROI>
+              <ShutterList>
+                <Shutter LightSourceQualifier="20" ShutterQualifier="1" LightSourceName="UV" IsActive="0" />
+                <Shutter LightSourceQualifier="10" ShutterQualifier="3" LightSourceName="Vis" IsActive="1" />
+              </ShutterList>
+              <FilterWheel>
+                <Wheel Qualifier="10" LightSourceQualifier="20" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="ND 3" FilterType="ExcitationFilter UV">
+                  <WheelName FilterName="ND 3" />
+                  <WheelName FilterName="ND 6" />
+                  <WheelName FilterName="ND 12.5" />
+                  <WheelName FilterName="ND 25" />
+                  <WheelName FilterName="ND 40" />
+                  <WheelName FilterName="ND 50" />
+                  <WheelName FilterName="ND 80" />
+                  <WheelName FilterName="--- " />
+                </Wheel>
+                <Wheel Qualifier="40" FilterIndex="5" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="DD 488/543" FilterType="Excitation Beam Splitter">
+                  <WheelName FilterName="RT 30/70" />
+                  <WheelName FilterName="Substrate " />
+                  <WheelName FilterName="TD 488/543/633" />
+                  <WheelName FilterName="DD 458/514" />
+                  <WheelName FilterName="RSP 500" />
+                  <WheelName FilterName="DD 488/543" />
+                </Wheel>
+                <Wheel Qualifier="170" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="Target Park " FilterType="Target Slider">
+                  <WheelName FilterName="Target Park " />
+                  <WheelName FilterName="Target Inserted " />
+                  <WheelName FilterName="Target Mirror " />
+                </Wheel>
+                <Wheel Qualifier="30" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="Lens 40x/1.25 Oil " FilterType="UV Lens Wheel">
+                  <WheelName FilterName="Lens 40x/1.25 Oil " />
+                  <WheelName FilterName="Lens 63x/1.2 W " />
+                  <WheelName FilterName="Lens 63x/1.4 Oil " />
+                  <WheelName FilterName="--- " />
+                  <WheelName FilterName="--- " />
+                  <WheelName FilterName="--- " />
+                </Wheel>
+              </FilterWheel>
+              <Spectro>
+                <MultiBand Channel="1" LeftWorld="425" RightWorld="563" DyeName="Leica/ECFP" />
+                <MultiBand Channel="2" LeftWorld="576.81817785486" RightWorld="717.0779181146" DyeName="User/mKate2" />
+                <MultiBand Channel="3" LeftWorld="730.649350649351" RightWorld="800" DyeName="" />
+              </Spectro>
+              <Lambda>
+                <LambdaEmission Channel="100" IsValid="0" BandWidthMode="0" LambdaEnd="795" LambdaBegin="385" BandWidth="10" Sections="41" Resolution="2.5" />
+                <LambdaExcitation BandWidthMode="4" LambdaExcitationLightSource="0" LambdaLambdaChannel="1" LambdaLambdaDetectionRangeGeometry="0" LambdaExcitationSections="21" ValidLambdaExcitationBegin="0" ValidLambdaExcitationEnd="0" LambdaExcitationBegin="465" LambdaExcitationEnd="700" LambdaExcitationGapToSPUnit="10" LambdaExcitationSPUnitMaxLambda="710" LambdaExcitationLaserLineIndex="0" LambdaExcitationResolution="10" LambdaExcitationDontMoveSPUnits="0" LambdaBandWidthSize="20" LambdaLambdaDetectBegin="480" LambdaLambdaDetectEnd="720" LambdaLambdaDetectBandWidth="20" LambdaLambdaDetectNoOfSteps="12" LambdaLambdaDetectStepSize="20" ValidLambdaLambdaMinGapExctToDetct="1" ValidLambdaLambdaMaxGapExctToDetct="0" LambdaLambdaMinGapExctToDetct="10" LambdaLambdaMaxGapExctToDetct="50" LambdaLambdaImageCounter="0" />
+              </Lambda>
+              <LambdaLarge />
+              <AotfList>
+                <Aotf AotfQualifier="10" LightSourceQualifier="10" OpenVirtual="0" IsChanged="1" CanDoPulseFreq="0" PulsFreq="0" CanDoTwoLaserPIE="0" TwoLaserPIEActive="0" AotfType="Visible">
+                  <LaserLineSetting LaserLine="458" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="476" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="514" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="543" IntensityDev="79.9975584447293" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="4" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="80.00" />
+                  <LaserLineSetting LaserLine="633" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="5" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                </Aotf>
+              </AotfList>
+              <LUT_List>
+                <LUT Channel="1" LutName="Cyan" />
+                <LUT Channel="2" LutName="Red" />
+                <LUT Channel="3" LutName="Blue" />
+                <LUT Channel="100" LutName="Gray" />
+              </LUT_List>
+              <DetectorList>
+                <Detector Channel="1" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="0" Offset="0" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 1" OffsetShow="0" GainShow="0" ActiveShow="Inactive" Band="(425nm - 563nm)" LutName="Cyan" />
+                <Detector Channel="2" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="806" Offset="0.233333333333334" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 2" OffsetShow="0" GainShow="806" ActiveShow="Active" Band="(577nm - 717nm)" LutName="Red" />
+                <Detector Channel="3" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="0" Offset="0" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 3" OffsetShow="0" GainShow="0" ActiveShow="Inactive" Band="(731nm - 800nm)" LutName="Blue" />
+                <Detector Channel="100" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="303" Offset="1.17333333333333" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="Transmission" OffsetShow="1" GainShow="303" ActiveShow="Active" Band="" LutName="Gray" />
+              </DetectorList>
+              <LaserArray>
+                <Laser Qualifier="20" LightSourceQualifier="20" LaserName="405 Diode" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="405" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="Argon" CanDoLinearOutputPower="1" OutputPower="42" Wavelength="458" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="HeNe 543" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="543" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="HeNe 633" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="633" />
+              </LaserArray>
+              <CompensationInterpolationPoints>
+                <IntensityCompArray />
+              </CompensationInterpolationPoints>
+              <CompensationDetectorBeginCond>
+                <DetectorArray />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <DetectorArray />
+              </CompensationDetectorEndCond>
+              <CompensationAotfBeginCond>
+                <LaserLineSettingArray />
+              </CompensationAotfBeginCond>
+              <CompensationAotfEndCond>
+                <LaserLineSettingArray />
+              </CompensationAotfEndCond>
+              <CompensationDetectorBeginCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorEndCond>
+            </ATLConfocalSettingDefinition>
+            <ATLConfocalSettingDefinition VersionNumber="3" UserSettingName="Seq. 2" IsSTEDActive="0" STEDDelayTime="42" STEDDelayTime2="42" IsUserSettingNameSet="1" BitSize="16" ScanMode="xyt" ZUseMode="1" ZPosition="-2.3841880645312E-10" IsSuperZ="0" Begin="0" End="0" Sections="1" ValidBeginStack="0" ValidEndStack="0" IsActivatedStepSizer="1" StepSizeConstant="0" StagePosX="15796442" StagePosY="11116072" StagePosZ="0" StageRangeX="25691588" StageRangeY="17000000" Magnification="10" ObjectivePos="0" CanDoOpticalZoom="0" OpticalZoom="1" MotCorrPosition="-1" CycleCount="1" CycleTime="0" CompleteTime="1.293" UseMaxIterationsForT="0" IsTimeMinimizeEnabled="0" LastTCalcMode="3" Lines="512" Pages="1" MaxLines="1" CanDoCSMode="1" ActiveCS_SubModeForTLD="100" ActiveCS_SubModeForRLD="-1" AutofocusChannel="1" IsAutofocusOnStart="0" AutoFocusMode="2" AutofocusRedoEveryNTimePoints="0" IsFCSFilterAutomationActive="0" IsSMDChaserUVAOTFAutomationActive="0" ObjectiveName="Dummy1" ObjectiveNumber="11506505" IsUVShutterActive="0" IsVisShutterActive="1" LastNonMP_MFP_FW_Name="" LastNonMP_Pol_FW_Name="" ScanSpeed="400" InDimension="512" OutDimension="512" Zoom="64" ScanDirectionX="1" PhaseX="23520" Pinhole="6.00000028498471E-04" PinholeAiry="8.47936727668839" FrameAverage="1" LineAverage="1" FrameAccumulation="1" Line_Accumulation="1" RotatorAngle="0" LambdaExcitationMode="0" IsRoiScanEnable="0" InTrigger="-1" InTriggerShowInGraph="1" InTriggerRecordInEvent="1" InTriggerDescription="" OutTrigger="-1" OutTriggerShowInGraph="1" OutTriggerRecordInEvent="1" OutTriggerDescription="" SyncOutTriggerCycle="1" SyncOutTriggerStartOffset="1" SyncOutTriggerPulsCount="1" SyncOutTriggerPulseStartLine="0" SyncOutTriggerPulseEndLine="1" SyncInTriggerCycle="1" SyncInTriggerStartOffset="1" SyncInTriggerCount="1" DetectorValidBegin="0" DetectorValidEnd="0" AotfValidBegin="0" AotfValidEnd="0" ZIntensityCompensationMode="0">
+              <Autofocus-config Precision="2" FocusRange="0.00008" ZUseMode="1" AFAnalyseType="1" WorkflowTimelapse="2" WorkflowTimelapseIterator="1" WorkflowXY="2" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="0" AFCOffset="-2" />
+              <Quantity Value="0" Unit="" />
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="1" ZPosition="-2.3841880645312E-10" />
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="2" ZPosition="0.0039827838" />
+              </AdditionalZPositionList>
+              <ROI>
+                <LMSDataContainerHeader Version="2">
+                  <Element Name="DCROISet">
+                    <Data>
+                      <ROISet ROISetType="1" PossibleChildROITypes="-1" PossibleROITransforms="65535" PossibleROIActions="65535" />
+                    </Data>
+                    <Memory Size="0" MemoryBlockID="MemBlock_23" />
+                    <Children />
+                  </Element>
+                </LMSDataContainerHeader>
+              </ROI>
+              <ShutterList>
+                <Shutter LightSourceQualifier="20" ShutterQualifier="1" LightSourceName="UV" IsActive="0" />
+                <Shutter LightSourceQualifier="10" ShutterQualifier="3" LightSourceName="Vis" IsActive="1" />
+              </ShutterList>
+              <FilterWheel>
+                <Wheel Qualifier="10" LightSourceQualifier="20" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="ND 3" FilterType="ExcitationFilter UV">
+                  <WheelName FilterName="ND 3" />
+                  <WheelName FilterName="ND 6" />
+                  <WheelName FilterName="ND 12.5" />
+                  <WheelName FilterName="ND 25" />
+                  <WheelName FilterName="ND 40" />
+                  <WheelName FilterName="ND 50" />
+                  <WheelName FilterName="ND 80" />
+                  <WheelName FilterName="--- " />
+                </Wheel>
+                <Wheel Qualifier="40" FilterIndex="3" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="DD 458/514" FilterType="Excitation Beam Splitter">
+                  <WheelName FilterName="RT 30/70" />
+                  <WheelName FilterName="Substrate " />
+                  <WheelName FilterName="TD 488/543/633" />
+                  <WheelName FilterName="DD 458/514" />
+                  <WheelName FilterName="RSP 500" />
+                  <WheelName FilterName="DD 488/543" />
+                </Wheel>
+                <Wheel Qualifier="170" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="Target Park " FilterType="Target Slider">
+                  <WheelName FilterName="Target Park " />
+                  <WheelName FilterName="Target Inserted " />
+                  <WheelName FilterName="Target Mirror " />
+                </Wheel>
+                <Wheel Qualifier="30" FilterIndex="0" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="Lens 40x/1.25 Oil " FilterType="UV Lens Wheel">
+                  <WheelName FilterName="Lens 40x/1.25 Oil " />
+                  <WheelName FilterName="Lens 63x/1.2 W " />
+                  <WheelName FilterName="Lens 63x/1.4 Oil " />
+                  <WheelName FilterName="--- " />
+                  <WheelName FilterName="--- " />
+                  <WheelName FilterName="--- " />
+                </Wheel>
+              </FilterWheel>
+              <Spectro>
+                <MultiBand Channel="1" LeftWorld="465" RightWorld="505" DyeName="" />
+                <MultiBand Channel="2" LeftWorld="525" RightWorld="600" DyeName="Leica/EYFP" />
+                <MultiBand Channel="3" LeftWorld="680" RightWorld="700" DyeName="" />
+              </Spectro>
+              <Lambda>
+                <LambdaEmission Channel="2" IsValid="0" BandWidthMode="0" LambdaEnd="795" LambdaBegin="385" BandWidth="10" Sections="41" Resolution="2.5" />
+                <LambdaExcitation BandWidthMode="4" LambdaExcitationLightSource="0" LambdaLambdaChannel="1" LambdaLambdaDetectionRangeGeometry="0" LambdaExcitationSections="21" ValidLambdaExcitationBegin="0" ValidLambdaExcitationEnd="0" LambdaExcitationBegin="465" LambdaExcitationEnd="700" LambdaExcitationGapToSPUnit="10" LambdaExcitationSPUnitMaxLambda="710" LambdaExcitationLaserLineIndex="0" LambdaExcitationResolution="10" LambdaExcitationDontMoveSPUnits="0" LambdaBandWidthSize="20" LambdaLambdaDetectBegin="480" LambdaLambdaDetectEnd="720" LambdaLambdaDetectBandWidth="20" LambdaLambdaDetectNoOfSteps="12" LambdaLambdaDetectStepSize="20" ValidLambdaLambdaMinGapExctToDetct="1" ValidLambdaLambdaMaxGapExctToDetct="0" LambdaLambdaMinGapExctToDetct="10" LambdaLambdaMaxGapExctToDetct="50" LambdaLambdaImageCounter="0" />
+              </Lambda>
+              <LambdaLarge />
+              <AotfList>
+                <Aotf AotfQualifier="10" LightSourceQualifier="10" OpenVirtual="0" IsChanged="1" CanDoPulseFreq="0" PulsFreq="0" CanDoTwoLaserPIE="0" TwoLaserPIEActive="0" AotfType="Visible">
+                  <LaserLineSetting LaserLine="458" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="476" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="514" IntensityDev="32.9976194836111" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="33.00" />
+                  <LaserLineSetting LaserLine="543" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="4" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                  <LaserLineSetting LaserLine="633" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="5" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" AotfType="Visible" IntensityShow="0.00" />
+                </Aotf>
+              </AotfList>
+              <LUT_List>
+                <LUT Channel="1" LutName="Gray" />
+                <LUT Channel="2" LutName="Yellow" />
+                <LUT Channel="3" LutName="Gray" />
+                <LUT Channel="100" LutName="Gray" />
+              </LUT_List>
+              <DetectorList>
+                <Detector Channel="1" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="0" Offset="0" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 1" OffsetShow="0" GainShow="0" ActiveShow="Inactive" Band="(465nm - 505nm)" LutName="Gray" />
+                <Detector Channel="2" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="678" Offset="-1.09999999999999" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 2" OffsetShow="-1" GainShow="678" ActiveShow="Active" Band="(525nm - 600nm)" LutName="Yellow" />
+                <Detector Channel="3" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="0" Offset="0" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 3" OffsetShow="0" GainShow="0" ActiveShow="Inactive" Band="(680nm - 700nm)" LutName="Gray" />
+                <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="266" Offset="1.17333333333333" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="Transmission" OffsetShow="1" GainShow="266" ActiveShow="Inactive" Band="" LutName="Gray" />
+              </DetectorList>
+              <LaserArray>
+                <Laser Qualifier="20" LightSourceQualifier="20" LaserName="405 Diode" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="405" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="Argon" CanDoLinearOutputPower="1" OutputPower="42" Wavelength="458" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="HeNe 543" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="543" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="HeNe 633" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="633" />
+              </LaserArray>
+              <CompensationInterpolationPoints>
+                <IntensityCompArray />
+              </CompensationInterpolationPoints>
+              <CompensationDetectorBeginCond>
+                <DetectorArray />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <DetectorArray />
+              </CompensationDetectorEndCond>
+              <CompensationAotfBeginCond>
+                <LaserLineSettingArray />
+              </CompensationAotfBeginCond>
+              <CompensationAotfEndCond>
+                <LaserLineSettingArray />
+              </CompensationAotfEndCond>
+              <CompensationDetectorBeginCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorEndCond>
+            </ATLConfocalSettingDefinition>
+          </LDM_Block_Sequential_List>
+          <LDM_Block_Sequential_Execution_Mask>
+            <InstrumentSettingMask Shutter="1" Frame_Average="1" Line_Average="1" AOTF="1" Laser_Gain_Offset="1" PMTs_on_off="1" PMTs_Gain_Offset="1" FilterWheel="1" Microscope="1" Pinhole="1" Spectrophotometer="1" Frame_Accumulation="1" Line_Accumulation="1" Reference_Correction="1" Laser="1" STED_DelayTime="1" />
+          </LDM_Block_Sequential_Execution_Mask>
+        </LDM_Block_Sequential>
+      </HardwareSetting>
+    </Attachment>
+    <TimeStampList FirstTimeStampDate="7/20/2018" FirstTimeStampTime="7:09:45 PM" FirstTimeStampMiliSeconds="148">
+      <TimeStamp HighInteger="30679166" LowInteger="3212924864" RelativeTime="0" Date="7/20/2018" Time="7:09:45 PM" MiliSeconds="148" />
+      <TimeStamp HighInteger="30679166" LowInteger="3212924864" RelativeTime="0" Date="7/20/2018" Time="7:09:45 PM" MiliSeconds="148" />
+      <TimeStamp HighInteger="30679166" LowInteger="3277874864" RelativeTime="6.495" Date="7/20/2018" Time="7:09:51 PM" MiliSeconds="643" />
+      <TimeStamp HighInteger="30679169" LowInteger="2329482976" RelativeTime="1200.146" Date="7/20/2018" Time="7:29:45 PM" MiliSeconds="294" />
+      <TimeStamp HighInteger="30679169" LowInteger="2329482976" RelativeTime="1200.146" Date="7/20/2018" Time="7:29:45 PM" MiliSeconds="294" />
+      <TimeStamp HighInteger="30679169" LowInteger="2394432976" RelativeTime="1206.641" Date="7/20/2018" Time="7:29:51 PM" MiliSeconds="789" />
+      <TimeStamp HighInteger="30679172" LowInteger="1444551088" RelativeTime="2400.143" Date="7/20/2018" Time="7:49:45 PM" MiliSeconds="291" />
+      <TimeStamp HighInteger="30679172" LowInteger="1444551088" RelativeTime="2400.143" Date="7/20/2018" Time="7:49:45 PM" MiliSeconds="291" />
+      <TimeStamp HighInteger="30679172" LowInteger="1509501088" RelativeTime="2406.638" Date="7/20/2018" Time="7:49:51 PM" MiliSeconds="786" />
+      <TimeStamp HighInteger="30679175" LowInteger="559609200" RelativeTime="3600.139" Date="7/20/2018" Time="8:09:45 PM" MiliSeconds="287" />
+      <TimeStamp HighInteger="30679175" LowInteger="559609200" RelativeTime="3600.139" Date="7/20/2018" Time="8:09:45 PM" MiliSeconds="287" />
+      <TimeStamp HighInteger="30679175" LowInteger="624559200" RelativeTime="3606.634" Date="7/20/2018" Time="8:09:51 PM" MiliSeconds="782" />
+      <TimeStamp HighInteger="30679177" LowInteger="3969584608" RelativeTime="4800.13" Date="7/20/2018" Time="8:29:45 PM" MiliSeconds="278" />
+      <TimeStamp HighInteger="30679177" LowInteger="3969584608" RelativeTime="4800.13" Date="7/20/2018" Time="8:29:45 PM" MiliSeconds="278" />
+      <TimeStamp HighInteger="30679177" LowInteger="4034534608" RelativeTime="4806.625" Date="7/20/2018" Time="8:29:51 PM" MiliSeconds="773" />
+      <TimeStamp HighInteger="30679180" LowInteger="3085052720" RelativeTime="6000.167" Date="7/20/2018" Time="8:49:45 PM" MiliSeconds="315" />
+      <TimeStamp HighInteger="30679180" LowInteger="3085052720" RelativeTime="6000.167" Date="7/20/2018" Time="8:49:45 PM" MiliSeconds="315" />
+      <TimeStamp HighInteger="30679180" LowInteger="3149952720" RelativeTime="6006.657" Date="7/20/2018" Time="8:49:51 PM" MiliSeconds="805" />
+      <TimeStamp HighInteger="30679183" LowInteger="2201010832" RelativeTime="7200.253" Date="7/20/2018" Time="9:09:45 PM" MiliSeconds="401" />
+      <TimeStamp HighInteger="30679183" LowInteger="2201010832" RelativeTime="7200.253" Date="7/20/2018" Time="9:09:45 PM" MiliSeconds="401" />
+      <TimeStamp HighInteger="30679183" LowInteger="2265960832" RelativeTime="7206.748" Date="7/20/2018" Time="9:09:51 PM" MiliSeconds="896" />
+      <TimeStamp HighInteger="30679186" LowInteger="1315968944" RelativeTime="8400.239" Date="7/20/2018" Time="9:29:45 PM" MiliSeconds="387" />
+      <TimeStamp HighInteger="30679186" LowInteger="1315968944" RelativeTime="8400.239" Date="7/20/2018" Time="9:29:45 PM" MiliSeconds="387" />
+      <TimeStamp HighInteger="30679186" LowInteger="1380918944" RelativeTime="8406.734" Date="7/20/2018" Time="9:29:51 PM" MiliSeconds="882" />
+      <TimeStamp HighInteger="30679189" LowInteger="431737056" RelativeTime="9600.306" Date="7/20/2018" Time="9:49:45 PM" MiliSeconds="454" />
+      <TimeStamp HighInteger="30679189" LowInteger="431737056" RelativeTime="9600.306" Date="7/20/2018" Time="9:49:45 PM" MiliSeconds="454" />
+      <TimeStamp HighInteger="30679189" LowInteger="496687056" RelativeTime="9606.801" Date="7/20/2018" Time="9:49:51 PM" MiliSeconds="949" />
+      <TimeStamp HighInteger="30679191" LowInteger="3843212464" RelativeTime="10800.447" Date="7/20/2018" Time="10:09:45 PM" MiliSeconds="595" />
+      <TimeStamp HighInteger="30679191" LowInteger="3843212464" RelativeTime="10800.447" Date="7/20/2018" Time="10:09:45 PM" MiliSeconds="595" />
+      <TimeStamp HighInteger="30679191" LowInteger="3908162464" RelativeTime="10806.942" Date="7/20/2018" Time="10:09:52 PM" MiliSeconds="90" />
+      <TimeStamp HighInteger="30679194" LowInteger="2957120576" RelativeTime="12000.328" Date="7/20/2018" Time="10:29:45 PM" MiliSeconds="476" />
+      <TimeStamp HighInteger="30679194" LowInteger="2957120576" RelativeTime="12000.328" Date="7/20/2018" Time="10:29:45 PM" MiliSeconds="476" />
+      <TimeStamp HighInteger="30679194" LowInteger="3022070576" RelativeTime="12006.823" Date="7/20/2018" Time="10:29:51 PM" MiliSeconds="971" />
+      <TimeStamp HighInteger="30679197" LowInteger="2072638688" RelativeTime="13200.37" Date="7/20/2018" Time="10:49:45 PM" MiliSeconds="518" />
+      <TimeStamp HighInteger="30679197" LowInteger="2072638688" RelativeTime="13200.37" Date="7/20/2018" Time="10:49:45 PM" MiliSeconds="518" />
+      <TimeStamp HighInteger="30679197" LowInteger="2137588688" RelativeTime="13206.865" Date="7/20/2018" Time="10:49:52 PM" MiliSeconds="13" />
+      <TimeStamp HighInteger="30679200" LowInteger="1187846800" RelativeTime="14400.381" Date="7/20/2018" Time="11:09:45 PM" MiliSeconds="529" />
+      <TimeStamp HighInteger="30679200" LowInteger="1187846800" RelativeTime="14400.381" Date="7/20/2018" Time="11:09:45 PM" MiliSeconds="529" />
+      <TimeStamp HighInteger="30679200" LowInteger="1252796800" RelativeTime="14406.876" Date="7/20/2018" Time="11:09:52 PM" MiliSeconds="24" />
+      <TimeStamp HighInteger="30679203" LowInteger="303554912" RelativeTime="15600.442" Date="7/20/2018" Time="11:29:45 PM" MiliSeconds="590" />
+      <TimeStamp HighInteger="30679203" LowInteger="303554912" RelativeTime="15600.442" Date="7/20/2018" Time="11:29:45 PM" MiliSeconds="590" />
+      <TimeStamp HighInteger="30679203" LowInteger="368504912" RelativeTime="15606.937" Date="7/20/2018" Time="11:29:52 PM" MiliSeconds="85" />
+      <TimeStamp HighInteger="30679205" LowInteger="3714790320" RelativeTime="16800.559" Date="7/20/2018" Time="11:49:45 PM" MiliSeconds="707" />
+      <TimeStamp HighInteger="30679205" LowInteger="3714790320" RelativeTime="16800.559" Date="7/20/2018" Time="11:49:45 PM" MiliSeconds="707" />
+      <TimeStamp HighInteger="30679205" LowInteger="3779740320" RelativeTime="16807.054" Date="7/20/2018" Time="11:49:52 PM" MiliSeconds="202" />
+      <TimeStamp HighInteger="30679208" LowInteger="2828698432" RelativeTime="18000.44" Date="7/21/2018" Time="12:09:45 AM" MiliSeconds="588" />
+      <TimeStamp HighInteger="30679208" LowInteger="2828698432" RelativeTime="18000.44" Date="7/21/2018" Time="12:09:45 AM" MiliSeconds="588" />
+      <TimeStamp HighInteger="30679208" LowInteger="2893648432" RelativeTime="18006.935" Date="7/21/2018" Time="12:09:52 AM" MiliSeconds="83" />
+      <TimeStamp HighInteger="30679211" LowInteger="1944456544" RelativeTime="19200.506" Date="7/21/2018" Time="12:29:45 AM" MiliSeconds="654" />
+      <TimeStamp HighInteger="30679211" LowInteger="1944456544" RelativeTime="19200.506" Date="7/21/2018" Time="12:29:45 AM" MiliSeconds="654" />
+      <TimeStamp HighInteger="30679211" LowInteger="2009406544" RelativeTime="19207.001" Date="7/21/2018" Time="12:29:52 AM" MiliSeconds="149" />
+      <TimeStamp HighInteger="30679214" LowInteger="1059774656" RelativeTime="20400.528" Date="7/21/2018" Time="12:49:45 AM" MiliSeconds="676" />
+      <TimeStamp HighInteger="30679214" LowInteger="1059774656" RelativeTime="20400.528" Date="7/21/2018" Time="12:49:45 AM" MiliSeconds="676" />
+      <TimeStamp HighInteger="30679214" LowInteger="1124724656" RelativeTime="20407.023" Date="7/21/2018" Time="12:49:52 AM" MiliSeconds="171" />
+      <TimeStamp HighInteger="30679217" LowInteger="175432768" RelativeTime="21600.584" Date="7/21/2018" Time="1:09:45 AM" MiliSeconds="732" />
+      <TimeStamp HighInteger="30679217" LowInteger="175432768" RelativeTime="21600.584" Date="7/21/2018" Time="1:09:45 AM" MiliSeconds="732" />
+      <TimeStamp HighInteger="30679217" LowInteger="240382768" RelativeTime="21607.079" Date="7/21/2018" Time="1:09:52 AM" MiliSeconds="227" />
+      <TimeStamp HighInteger="30679219" LowInteger="3584608176" RelativeTime="22800.495" Date="7/21/2018" Time="1:29:45 AM" MiliSeconds="643" />
+      <TimeStamp HighInteger="30679219" LowInteger="3584608176" RelativeTime="22800.495" Date="7/21/2018" Time="1:29:45 AM" MiliSeconds="643" />
+      <TimeStamp HighInteger="30679219" LowInteger="3649558176" RelativeTime="22806.99" Date="7/21/2018" Time="1:29:52 AM" MiliSeconds="138" />
+      <TimeStamp HighInteger="30679222" LowInteger="2701026288" RelativeTime="24000.627" Date="7/21/2018" Time="1:49:45 AM" MiliSeconds="775" />
+      <TimeStamp HighInteger="30679222" LowInteger="2701026288" RelativeTime="24000.627" Date="7/21/2018" Time="1:49:45 AM" MiliSeconds="775" />
+      <TimeStamp HighInteger="30679222" LowInteger="2765976288" RelativeTime="24007.122" Date="7/21/2018" Time="1:49:52 AM" MiliSeconds="270" />
+      <TimeStamp HighInteger="30679225" LowInteger="1816284400" RelativeTime="25200.643" Date="7/21/2018" Time="2:09:45 AM" MiliSeconds="791" />
+      <TimeStamp HighInteger="30679225" LowInteger="1816284400" RelativeTime="25200.643" Date="7/21/2018" Time="2:09:45 AM" MiliSeconds="791" />
+      <TimeStamp HighInteger="30679225" LowInteger="1881234400" RelativeTime="25207.138" Date="7/21/2018" Time="2:09:52 AM" MiliSeconds="286" />
+      <TimeStamp HighInteger="30679228" LowInteger="932242512" RelativeTime="26400.729" Date="7/21/2018" Time="2:29:45 AM" MiliSeconds="877" />
+      <TimeStamp HighInteger="30679228" LowInteger="932242512" RelativeTime="26400.729" Date="7/21/2018" Time="2:29:45 AM" MiliSeconds="877" />
+      <TimeStamp HighInteger="30679228" LowInteger="997192512" RelativeTime="26407.224" Date="7/21/2018" Time="2:29:52 AM" MiliSeconds="372" />
+      <TimeStamp HighInteger="30679231" LowInteger="45860624" RelativeTime="27600.581" Date="7/21/2018" Time="2:49:45 AM" MiliSeconds="729" />
+      <TimeStamp HighInteger="30679231" LowInteger="45860624" RelativeTime="27600.581" Date="7/21/2018" Time="2:49:45 AM" MiliSeconds="729" />
+      <TimeStamp HighInteger="30679231" LowInteger="110810624" RelativeTime="27607.076" Date="7/21/2018" Time="2:49:52 AM" MiliSeconds="224" />
+      <TimeStamp HighInteger="30679233" LowInteger="3457436032" RelativeTime="28800.732" Date="7/21/2018" Time="3:09:45 AM" MiliSeconds="880" />
+      <TimeStamp HighInteger="30679233" LowInteger="3457436032" RelativeTime="28800.732" Date="7/21/2018" Time="3:09:45 AM" MiliSeconds="880" />
+      <TimeStamp HighInteger="30679233" LowInteger="3522386032" RelativeTime="28807.227" Date="7/21/2018" Time="3:09:52 AM" MiliSeconds="375" />
+      <TimeStamp HighInteger="30679236" LowInteger="2572644144" RelativeTime="30000.743" Date="7/21/2018" Time="3:29:45 AM" MiliSeconds="891" />
+      <TimeStamp HighInteger="30679236" LowInteger="2572644144" RelativeTime="30000.743" Date="7/21/2018" Time="3:29:45 AM" MiliSeconds="891" />
+      <TimeStamp HighInteger="30679236" LowInteger="2637594144" RelativeTime="30007.238" Date="7/21/2018" Time="3:29:52 AM" MiliSeconds="386" />
+      <TimeStamp HighInteger="30679239" LowInteger="1687912256" RelativeTime="31200.76" Date="7/21/2018" Time="3:49:45 AM" MiliSeconds="908" />
+      <TimeStamp HighInteger="30679239" LowInteger="1687912256" RelativeTime="31200.76" Date="7/21/2018" Time="3:49:45 AM" MiliSeconds="908" />
+      <TimeStamp HighInteger="30679239" LowInteger="1752862256" RelativeTime="31207.255" Date="7/21/2018" Time="3:49:52 AM" MiliSeconds="403" />
+      <TimeStamp HighInteger="30679242" LowInteger="803420368" RelativeTime="32400.801" Date="7/21/2018" Time="4:09:45 AM" MiliSeconds="949" />
+      <TimeStamp HighInteger="30679242" LowInteger="803420368" RelativeTime="32400.801" Date="7/21/2018" Time="4:09:45 AM" MiliSeconds="949" />
+      <TimeStamp HighInteger="30679242" LowInteger="868370368" RelativeTime="32407.296" Date="7/21/2018" Time="4:09:52 AM" MiliSeconds="444" />
+      <TimeStamp HighInteger="30679244" LowInteger="4213855776" RelativeTime="33600.838" Date="7/21/2018" Time="4:29:45 AM" MiliSeconds="986" />
+      <TimeStamp HighInteger="30679244" LowInteger="4213855776" RelativeTime="33600.838" Date="7/21/2018" Time="4:29:45 AM" MiliSeconds="986" />
+      <TimeStamp HighInteger="30679244" LowInteger="4278805776" RelativeTime="33607.333" Date="7/21/2018" Time="4:29:52 AM" MiliSeconds="481" />
+      <TimeStamp HighInteger="30679247" LowInteger="3329263888" RelativeTime="34800.869" Date="7/21/2018" Time="4:49:46 AM" MiliSeconds="17" />
+      <TimeStamp HighInteger="30679247" LowInteger="3329263888" RelativeTime="34800.869" Date="7/21/2018" Time="4:49:46 AM" MiliSeconds="17" />
+      <TimeStamp HighInteger="30679247" LowInteger="3394213888" RelativeTime="34807.364" Date="7/21/2018" Time="4:49:52 AM" MiliSeconds="512" />
+      <TimeStamp HighInteger="30679250" LowInteger="2446222000" RelativeTime="36001.055" Date="7/21/2018" Time="5:09:46 AM" MiliSeconds="203" />
+      <TimeStamp HighInteger="30679250" LowInteger="2446222000" RelativeTime="36001.055" Date="7/21/2018" Time="5:09:46 AM" MiliSeconds="203" />
+      <TimeStamp HighInteger="30679250" LowInteger="2511172000" RelativeTime="36007.55" Date="7/21/2018" Time="5:09:52 AM" MiliSeconds="698" />
+      <TimeStamp HighInteger="30679253" LowInteger="1559990112" RelativeTime="37200.922" Date="7/21/2018" Time="5:29:46 AM" MiliSeconds="70" />
+      <TimeStamp HighInteger="30679253" LowInteger="1559990112" RelativeTime="37200.922" Date="7/21/2018" Time="5:29:46 AM" MiliSeconds="70" />
+      <TimeStamp HighInteger="30679253" LowInteger="1624940112" RelativeTime="37207.417" Date="7/21/2018" Time="5:29:52 AM" MiliSeconds="565" />
+      <TimeStamp HighInteger="30679256" LowInteger="675198224" RelativeTime="38400.933" Date="7/21/2018" Time="5:49:46 AM" MiliSeconds="81" />
+      <TimeStamp HighInteger="30679256" LowInteger="675198224" RelativeTime="38400.933" Date="7/21/2018" Time="5:49:46 AM" MiliSeconds="81" />
+      <TimeStamp HighInteger="30679256" LowInteger="740148224" RelativeTime="38407.428" Date="7/21/2018" Time="5:49:52 AM" MiliSeconds="576" />
+      <TimeStamp HighInteger="30679258" LowInteger="4085523632" RelativeTime="39600.959" Date="7/21/2018" Time="6:09:46 AM" MiliSeconds="107" />
+      <TimeStamp HighInteger="30679258" LowInteger="4085523632" RelativeTime="39600.959" Date="7/21/2018" Time="6:09:46 AM" MiliSeconds="107" />
+      <TimeStamp HighInteger="30679258" LowInteger="4150473632" RelativeTime="39607.454" Date="7/21/2018" Time="6:09:52 AM" MiliSeconds="602" />
+      <TimeStamp HighInteger="30679261" LowInteger="3201041744" RelativeTime="40801.001" Date="7/21/2018" Time="6:29:46 AM" MiliSeconds="149" />
+      <TimeStamp HighInteger="30679261" LowInteger="3201041744" RelativeTime="40801.001" Date="7/21/2018" Time="6:29:46 AM" MiliSeconds="149" />
+      <TimeStamp HighInteger="30679261" LowInteger="3265991744" RelativeTime="40807.496" Date="7/21/2018" Time="6:29:52 AM" MiliSeconds="644" />
+      <TimeStamp HighInteger="30679264" LowInteger="2317149856" RelativeTime="42001.102" Date="7/21/2018" Time="6:49:46 AM" MiliSeconds="250" />
+      <TimeStamp HighInteger="30679264" LowInteger="2317149856" RelativeTime="42001.102" Date="7/21/2018" Time="6:49:46 AM" MiliSeconds="250" />
+      <TimeStamp HighInteger="30679264" LowInteger="2382099856" RelativeTime="42007.597" Date="7/21/2018" Time="6:49:52 AM" MiliSeconds="745" />
+      <TimeStamp HighInteger="30679267" LowInteger="1431807968" RelativeTime="43201.058" Date="7/21/2018" Time="7:09:46 AM" MiliSeconds="206" />
+      <TimeStamp HighInteger="30679267" LowInteger="1431807968" RelativeTime="43201.058" Date="7/21/2018" Time="7:09:46 AM" MiliSeconds="206" />
+      <TimeStamp HighInteger="30679267" LowInteger="1496757968" RelativeTime="43207.553" Date="7/21/2018" Time="7:09:52 AM" MiliSeconds="701" />
+      <TimeStamp HighInteger="30679270" LowInteger="547526080" RelativeTime="44401.12" Date="7/21/2018" Time="7:29:46 AM" MiliSeconds="268" />
+      <TimeStamp HighInteger="30679270" LowInteger="547526080" RelativeTime="44401.12" Date="7/21/2018" Time="7:29:46 AM" MiliSeconds="268" />
+      <TimeStamp HighInteger="30679270" LowInteger="612476080" RelativeTime="44407.615" Date="7/21/2018" Time="7:29:52 AM" MiliSeconds="763" />
+      <TimeStamp HighInteger="30679272" LowInteger="3957651488" RelativeTime="45601.126" Date="7/21/2018" Time="7:49:46 AM" MiliSeconds="274" />
+      <TimeStamp HighInteger="30679272" LowInteger="3957651488" RelativeTime="45601.126" Date="7/21/2018" Time="7:49:46 AM" MiliSeconds="274" />
+      <TimeStamp HighInteger="30679272" LowInteger="4022601488" RelativeTime="45607.621" Date="7/21/2018" Time="7:49:52 AM" MiliSeconds="769" />
+      <TimeStamp HighInteger="30679275" LowInteger="3072959600" RelativeTime="46801.147" Date="7/21/2018" Time="8:09:46 AM" MiliSeconds="295" />
+      <TimeStamp HighInteger="30679275" LowInteger="3072959600" RelativeTime="46801.147" Date="7/21/2018" Time="8:09:46 AM" MiliSeconds="295" />
+      <TimeStamp HighInteger="30679275" LowInteger="3137909600" RelativeTime="46807.642" Date="7/21/2018" Time="8:09:52 AM" MiliSeconds="790" />
+      <TimeStamp HighInteger="30679278" LowInteger="2188377712" RelativeTime="48001.179" Date="7/21/2018" Time="8:29:46 AM" MiliSeconds="327" />
+      <TimeStamp HighInteger="30679278" LowInteger="2188377712" RelativeTime="48001.179" Date="7/21/2018" Time="8:29:46 AM" MiliSeconds="327" />
+      <TimeStamp HighInteger="30679278" LowInteger="2253327712" RelativeTime="48007.674" Date="7/21/2018" Time="8:29:52 AM" MiliSeconds="822" />
+      <TimeStamp HighInteger="30679281" LowInteger="1304185824" RelativeTime="49201.25" Date="7/21/2018" Time="8:49:46 AM" MiliSeconds="398" />
+      <TimeStamp HighInteger="30679281" LowInteger="1304185824" RelativeTime="49201.25" Date="7/21/2018" Time="8:49:46 AM" MiliSeconds="398" />
+      <TimeStamp HighInteger="30679281" LowInteger="1369085824" RelativeTime="49207.74" Date="7/21/2018" Time="8:49:52 AM" MiliSeconds="888" />
+      <TimeStamp HighInteger="30679284" LowInteger="419093936" RelativeTime="50401.231" Date="7/21/2018" Time="9:09:46 AM" MiliSeconds="379" />
+      <TimeStamp HighInteger="30679284" LowInteger="419093936" RelativeTime="50401.231" Date="7/21/2018" Time="9:09:46 AM" MiliSeconds="379" />
+      <TimeStamp HighInteger="30679284" LowInteger="484043936" RelativeTime="50407.726" Date="7/21/2018" Time="9:09:52 AM" MiliSeconds="874" />
+      <TimeStamp HighInteger="30679286" LowInteger="3831229344" RelativeTime="51601.438" Date="7/21/2018" Time="9:29:46 AM" MiliSeconds="586" />
+      <TimeStamp HighInteger="30679286" LowInteger="3831229344" RelativeTime="51601.438" Date="7/21/2018" Time="9:29:46 AM" MiliSeconds="586" />
+      <TimeStamp HighInteger="30679286" LowInteger="3896179344" RelativeTime="51607.933" Date="7/21/2018" Time="9:29:53 AM" MiliSeconds="81" />
+      <TimeStamp HighInteger="30679289" LowInteger="2944687456" RelativeTime="52801.274" Date="7/21/2018" Time="9:49:46 AM" MiliSeconds="422" />
+      <TimeStamp HighInteger="30679289" LowInteger="2944687456" RelativeTime="52801.274" Date="7/21/2018" Time="9:49:46 AM" MiliSeconds="422" />
+      <TimeStamp HighInteger="30679289" LowInteger="3009637456" RelativeTime="52807.769" Date="7/21/2018" Time="9:49:52 AM" MiliSeconds="917" />
+      <TimeStamp HighInteger="30679292" LowInteger="2060445568" RelativeTime="54001.34" Date="7/21/2018" Time="10:09:46 AM" MiliSeconds="488" />
+      <TimeStamp HighInteger="30679292" LowInteger="2060445568" RelativeTime="54001.34" Date="7/21/2018" Time="10:09:46 AM" MiliSeconds="488" />
+      <TimeStamp HighInteger="30679292" LowInteger="2125395568" RelativeTime="54007.835" Date="7/21/2018" Time="10:09:52 AM" MiliSeconds="983" />
+      <TimeStamp HighInteger="30679295" LowInteger="1176013680" RelativeTime="55201.387" Date="7/21/2018" Time="10:29:46 AM" MiliSeconds="535" />
+      <TimeStamp HighInteger="30679295" LowInteger="1176013680" RelativeTime="55201.387" Date="7/21/2018" Time="10:29:46 AM" MiliSeconds="535" />
+      <TimeStamp HighInteger="30679295" LowInteger="1240963680" RelativeTime="55207.882" Date="7/21/2018" Time="10:29:53 AM" MiliSeconds="30" />
+      <TimeStamp HighInteger="30679298" LowInteger="291221792" RelativeTime="56401.398" Date="7/21/2018" Time="10:49:46 AM" MiliSeconds="546" />
+      <TimeStamp HighInteger="30679298" LowInteger="291221792" RelativeTime="56401.398" Date="7/21/2018" Time="10:49:46 AM" MiliSeconds="546" />
+      <TimeStamp HighInteger="30679298" LowInteger="356171792" RelativeTime="56407.893" Date="7/21/2018" Time="10:49:53 AM" MiliSeconds="41" />
+      <TimeStamp HighInteger="30679300" LowInteger="3701297200" RelativeTime="57601.399" Date="7/21/2018" Time="11:09:46 AM" MiliSeconds="547" />
+      <TimeStamp HighInteger="30679300" LowInteger="3701297200" RelativeTime="57601.399" Date="7/21/2018" Time="11:09:46 AM" MiliSeconds="547" />
+      <TimeStamp HighInteger="30679300" LowInteger="3766247200" RelativeTime="57607.894" Date="7/21/2018" Time="11:09:53 AM" MiliSeconds="42" />
+      <TimeStamp HighInteger="30679303" LowInteger="2816165312" RelativeTime="58801.376" Date="7/21/2018" Time="11:29:46 AM" MiliSeconds="524" />
+      <TimeStamp HighInteger="30679303" LowInteger="2816165312" RelativeTime="58801.376" Date="7/21/2018" Time="11:29:46 AM" MiliSeconds="524" />
+      <TimeStamp HighInteger="30679303" LowInteger="2881115312" RelativeTime="58807.871" Date="7/21/2018" Time="11:29:53 AM" MiliSeconds="19" />
+    </TimeStampList>
+    <Attachment Name="ChannelAttachment" Application="LAS AF" />
+    <Attachment Name="ViewerScaling" Application="LAS AF">
+      <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+      <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+      <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+    </Attachment>
+    <Attachment Name="ImageXMLDocument" Application="LAS AF">
+      <RootNode />
+    </Attachment>
+  </Image>
+</Data>
